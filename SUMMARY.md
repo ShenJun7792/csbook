@@ -1,6 +1,6 @@
 # Summary
 
-* 介绍
+* [介绍](jie_shao.md)
 * [Introduction](README.md)
 * [开发工具](chapter1.md)
 * [Hello World](hello_world.md)
