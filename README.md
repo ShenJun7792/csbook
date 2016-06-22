@@ -1,3 +1,3 @@
 # My Awesome Book
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本书是在GNU GPL V3协议下发布的开源、免费C#教程。您可以任意修改和使用本书中的内容和源代码。有任何意见和建议欢迎与我直接交流。联系邮箱：380921128#qq.com (请替换#)。
