@@ -8,7 +8,6 @@ C# Source Book
 
 * 关于本书
 
-
 主版本：Beta
 网站地址：http://cs.sourcebook.cn
 Github托管地址：https://github.com/li-kang/cs-source-book
