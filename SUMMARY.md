@@ -1,7 +1,7 @@
 # Summary
 
 * [简介](README.md)
-* [\[第一章 C\#简介\]](第1章 C＃简介／第一章 C#简介)
+* [\[第一章 C\#简介\]](第1章 C＃简介/第一章 C＃简介.md)
     * [1.1 .Net Framework 的含义](net-framework-的含义.md)
         * [1.1.1 .Net Framework 的内容](111-net-framework的内容.md)
         * [1.1.2 使用 .Net Framework 编写应用程序](112-使用-net-framework-编写应用程序.md)
