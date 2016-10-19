@@ -40,11 +40,11 @@ ___
 
 
 >html 实现方法
-<ol>
+<ul>
 <li>Bird</li>
 <li>McHale</li>
 <li>Parish</li>
-</ol>
+</ul>
 
 
 ---
