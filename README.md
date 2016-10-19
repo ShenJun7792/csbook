@@ -87,7 +87,6 @@ ___
 [2]:http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png
 
 >html实现
-
 <p>I get 10 times more traffic from <a href="http://google.com/"
 title="Google">Google</a> than from <a href="http://search.yahoo.com/"
 title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/"
