@@ -68,7 +68,7 @@ ___
 >**html实现**
 <p>This is an <a href="http://www.baidu.com/"> 百度链接</a>.</p>
 带有Title属性
-<p>This is an <a href="http://www.baidu.com/" title="这里是百度链接">
+<p>This is an <a href="http://www.baidu.com/" title="这里是百度链接的Title">
 百度链接</a>.</p>
 
 ---
