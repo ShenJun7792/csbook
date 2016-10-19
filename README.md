@@ -8,7 +8,7 @@ ___
 
 [Start][]
 
-[Start]: www.baidu.com
+[Start]: http://www.baidu.com
 
 ---
 
