@@ -129,6 +129,9 @@ ___
 
 表格
 
+Markdown的扩展语法，hexo不支持
+
+
 || *year* || *Temperature(low)* || *Temperature(high)* ||
 
 || 1900 || 10 || 20 ||
