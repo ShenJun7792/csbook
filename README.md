@@ -159,10 +159,11 @@ html 语法实现
         <td> Temperature(low) </td>
 
         <td> Temperature(high) </td>
-    </tr>
+    </tr></br>
     <tr>
-         <td> Foo </td>
-         <td> Do </td>
+         <td> 1900 </td>
+         <td> 10 </td>
+         <td> 20 </td>
      </tr>
 
 </table>
