@@ -108,7 +108,7 @@ ___
 [此处是文字超链][1]
 ![图片超链][2]
 [1]:http://www.baidu.com
-[2]:http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png
+[2]:http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png "Picture Titile"
 
 <!-- 注释： title 属性是选择性的，链接名称可以用字母、数字和空格，但是不分大小写： -->
 >html实现
