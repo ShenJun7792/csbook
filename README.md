@@ -8,7 +8,7 @@ ___
 
 #_以下为MarkDown语法_
 
-<span id="jump">跳转到的地方</span>
+<a id="jump">跳转到的地方</a>
 
 
 ---
