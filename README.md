@@ -258,7 +258,7 @@ Hello World!`
 <a href="开始" id="结尾">跳转到开始</a>
 -->
 
-[跳转到开始](#开始)
+[跳转到开始](#start)
 <span id="结尾"></span>
 
 
