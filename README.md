@@ -130,8 +130,6 @@ title="MSN Search">MSN</a>.</p>
 
 在第一行后指定编程语言，也可以不指定
 
-<!-- 0 -->
-
 ```python
 
 string s = "Hello World";
