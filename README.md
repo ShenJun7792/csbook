@@ -63,7 +63,7 @@ ___
 
 文字超链 inline方式
 
-[转到百度](http://www.baidu.com "百度链接")
+这里是[转到百度](http://www.baidu.com "百度链接")
 
 >**html实现**
 <p>This is an <a href="http://www.baidu.com/"> 百度链接</a>.</p>
