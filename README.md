@@ -163,6 +163,10 @@ html 语法实现
         <td> 10 </td>
         <td> 20 </td>
     </tr></br>
+    <tr>
+        <td> 20000 </td>
+        <td> 1000 </td>
+        <td> 10000 </td>
     </tr>
 
 </table>
