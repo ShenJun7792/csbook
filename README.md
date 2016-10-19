@@ -162,7 +162,7 @@ html 语法实现
          <td> 1900 </td>
          <td> 10 </td>
          <td> 20 </td>
-     </tr>
+     </tr></br>
 
 </table>
 
