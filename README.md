@@ -130,6 +130,7 @@ ___
 表格
 
 || *year* || *Temperature(low)* || *Temperature(high)* ||
+
 || 1900 || 10 || 20 ||
 
 ---
