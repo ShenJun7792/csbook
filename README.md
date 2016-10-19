@@ -157,12 +157,12 @@ html 语法实现
         <td> year </td>
         <td> Temperature(low) </td>
         <td> Temperature(high) </td>
-    </tr></br>
+    </tr>
     <tr>
         <td> 1900 </td>
         <td> 10 </td>
         <td> 20 </td>
-    </tr></br>
+    </tr>
     <tr>
         <td> 20000 </td>
         <td> 1000 </td>
