@@ -275,7 +275,8 @@ $$E=mc^2$$
 
 ### 4. 高效绘制
 
-```flowst=>start: Start
+```flow
+st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
 e=>end
