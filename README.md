@@ -38,6 +38,19 @@ ___
 3. 有序列表
 8. 有序列表
 
+
+html 实现方法
+<ol>
+
+<li>Bird</li>
+
+<li>McHale</li>
+
+<li>Parish</li>
+
+</ol>
+
+
 ---
 
 文字超链 inline方式
