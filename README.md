@@ -41,7 +41,6 @@ ___
 
 html 实现方法
 <ol>
-
 <li>Bird</li>
 
 <li>McHale</li>
