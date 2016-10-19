@@ -129,7 +129,7 @@ ___
 
 表格
 
-||*year*|| *Temperator(low)* || *Templaterator(high)* ||
+|| *year* || *Temperator(low)* || *Templaterator(high)* ||
 || 1900 || 10 || 20 ||
 
 ---
