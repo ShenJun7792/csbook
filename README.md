@@ -275,9 +275,15 @@ $$E=mc^2$$
 
 ### 4. 高效绘制
 
-```flowst=>start: Startop=>operation: Your Operationcond=>condition: Yes or No?e=>end
+```flowst=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
 
-st->op->condcond(yes)->econd(no)->op```
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
 
 
 ---
