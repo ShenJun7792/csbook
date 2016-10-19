@@ -143,7 +143,9 @@ Markdown的扩展语法，hexo不支持
 html 语法实现
 
 <table>
-
+    <tr>
+        <td> Foo </td>
+    </tr>
 </table>
 
 ---
