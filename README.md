@@ -34,7 +34,6 @@ ___
 + 无序列表
 
 >html 实现方法
-
 <ul>
 <li>Bird</li>
 <li>McHale</li>
@@ -119,7 +118,7 @@ ___
 
 『% endcodeblock %』
 
-html 实现代码段落
+>html 实现代码段落
 <ol>
 <li><p>A list item.</p></li>
 <li><p>With multiple paragraphs.</p></li>
