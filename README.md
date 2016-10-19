@@ -154,11 +154,11 @@ html 语法实现
 
 <table>
     <tr>
-        <td> Foo </td>
+        <td> year </td>
 
-        <td> XXX </td>
+        <td> Temperature(low) </td>
 
-        <td> Do </td>
+        <td> Temperature(high) </td>
     </tr>
     <tr>
          <td> Foo </td>
