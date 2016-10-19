@@ -84,7 +84,7 @@ ___
 
     Console.WriteLine(s);
 
-+ xexo
++ hexo
 
 『% codeblock [title] [lang:language] [url] [link text] %』
 
