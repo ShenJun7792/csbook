@@ -29,6 +29,15 @@ ___
     - 无序列表
 + 无序列表
 
+>html 实现方法
+
+<ul>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ul>
+
+
 ---
 
 **有序列表**
@@ -40,11 +49,11 @@ ___
 
 
 >html 实现方法
-<ul>
+<ol>
 <li>Bird</li>
 <li>McHale</li>
 <li>Parish</li>
-</ul>
+</ol>
 
 
 ---
