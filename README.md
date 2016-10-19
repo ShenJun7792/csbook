@@ -68,7 +68,7 @@ ___
 + 行内代码
 
 <!--0-->
- var s = "Hello World";
+ string s = "Hello World";
 
  Console.WriteLine(s);
 
