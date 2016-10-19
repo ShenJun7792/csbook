@@ -86,6 +86,7 @@ ___
 [1]:http://www.baidu.com
 [2]:http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png
 
+<!-- title 属性是选择性的，链接名称可以用字母、数字和空格，但是不分大小写： -->
 >html实现
 <p>I get 10 times more traffic from <a href="http://google.com/"
 title="Google">Google</a> than from <a href="http://search.yahoo.com/"
