@@ -132,7 +132,7 @@ title="MSN Search">MSN</a>.</p>
 
 <!-- 0 -->
 
-```javascript
+```python
 
 string s = "Hello World";
 
