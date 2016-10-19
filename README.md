@@ -69,7 +69,7 @@ ___
 
 在第一行后指定编程语言，也可以不指定
 
-<!--0-->
+<!-- 0 -->
  string s = "Hello World";
 
  Console.WriteLine(s);
