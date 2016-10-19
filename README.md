@@ -233,7 +233,6 @@ Hello World!`
 
 **跳转到C#简介**
 [第1章 C\#简介](https://shenjun7792.github.io/第1章%20C＃简介/1_C＃简介.html "跳转到C#简介Title")
-[1]:
 
 ---
 
