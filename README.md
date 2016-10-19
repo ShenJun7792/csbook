@@ -147,6 +147,11 @@ html 语法实现
         <td> Foo </td>
         <td> Do </td>
     </tr>
+    <tr>
+         <td> Foo </td>
+         <td> Do </td>
+     </tr>
+
 </table>
 
 ---
