@@ -52,7 +52,7 @@ ___
 
 索引超链 Reference方式
 
-[文字超链][1]
+[此处是文字超链][1]
 ![图片超链][2]
 [1]:http://www.baidu.com
 [2]:http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png
