@@ -45,6 +45,8 @@ ___
 ---
 
 图片超链 
+![GitHub Mark](http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png "GitHub Mark")
+
 
 ---
 
