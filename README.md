@@ -86,6 +86,11 @@ ___
 
 + xexo
 
+『% codeblock [title] [lang:language] [url] [link text] %』
+
+ code snippet
+
+『% endcodeblock %』
 
 ___
 
