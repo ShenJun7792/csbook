@@ -112,11 +112,11 @@ ___
 『% endcodeblock %』
 
 html 实现代码段落
-<ul>
+<ol>
 <li><p>A list item.</p></li>
 <li><p>With multiple paragraphs.</p></li>
 <li><p>Another item in the list.</p></li>
-</ul>
+</ol>
 
 
 ___
