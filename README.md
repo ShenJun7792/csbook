@@ -115,7 +115,7 @@ title="MSN Search">MSN</a>.</p>
 
 <!-- 0 -->
 
-'''javascript
+```javascript
 
 string s = "Hello World";
 
