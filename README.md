@@ -67,7 +67,7 @@ ___
 代码
 + 行内代码
 
-<!--c#-->
+<!--1-->
  string s = "Hello World";
 
  Console.WriteLine(s);
