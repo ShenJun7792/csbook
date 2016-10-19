@@ -155,9 +155,7 @@ html 语法实现
 <table>
     <tr>
         <td> year </td>
-
         <td> Temperature(low) </td>
-
         <td> Temperature(high) </td>
     </tr></br>
     <tr>
