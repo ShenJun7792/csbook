@@ -40,7 +40,7 @@ ___
 ---
 
 文字超链 inline方式
-[文字](www.baidu.com)
+[文字](www.baidu.com, "百度")
 
 ---
 
