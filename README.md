@@ -152,7 +152,7 @@ Markdown的扩展语法，hexo不支持
 
 <table>
     <tr>
-        <td> year </td>
+        <td> <b>year</b> </td>
         <td> Temperature(low) </td>
         <td> Temperature(high) </td>
     </tr>
