@@ -6,9 +6,8 @@ ___
 
 <span id="开始"></span>
 
-<!--
+<!-- 隐式链接标记
 [Start][]
-
 [Start]: http://www.baidu.com
 -->
 
