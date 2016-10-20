@@ -61,7 +61,7 @@
 
 
 >html实现
-<font size="24pt"> 这里是24号字体 </font>
+<font size="26pt"> 这里是24号字体 </font>
 
 
 > ** 标题 **
