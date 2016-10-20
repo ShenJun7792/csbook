@@ -16,8 +16,8 @@ C#还有许多功能，希望读者能够掌握它们！
 
 
 * #### Visual Studio Express 2013产品
->除Visual Studio 2013外，Microsoft还提供了几个更简单的开发工具，称为Visual Studio Express 2013产品。可以在 http://www.microsoft.com/express 上免费获得它们。
-各种Express产品可以创建所需的几乎所有C#应用程序。在功能上它们都是_**VS的删节版本**_，但外观和操作方式是一样的。尽管它们提供了VS的许多功能，但缺少一些重要功能；不过我们扔可以在学习书的过程中使用它们。
+```除Visual Studio 2013外，Microsoft还提供了几个更简单的开发工具，称为Visual Studio Express 2013产品。可以在 http://www.microsoft.com/express 上免费获得它们。
+各种Express产品可以创建所需的几乎所有C#应用程序。在功能上它们都是_**VS的删节版本**_，但外观和操作方式是一样的。尽管它们提供了VS的许多功能，但缺少一些重要功能；不过我们扔可以在学习书的过程中使用它们。```
 
 
 * #### 解决方案
