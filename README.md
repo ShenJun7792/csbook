@@ -61,7 +61,7 @@
 
 
 >html实现
-<font size=1> 这里是1~7号字体 </font>
+<font size=1> 这里size是1~7 </font>
 
 ><small>变小</small>
 <big>变大</big>
