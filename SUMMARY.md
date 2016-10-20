@@ -1,6 +1,6 @@
 # Summary
 
-* [C#入门经典最新版](README.md)
+* [C\#入门经典最新版](README.md)
 * [第1章 C\#简介](第1章 C＃简介/1_C＃简介.md)
     * [1.1 .Net Framework 的含义](第1章 C＃简介/1_1_.Net Framework 的含义.md)
         * [1.1.1 .Net Framework 的内容](第1章 C＃简介/1_1_1_.Net Framework的内容.md)
@@ -8,7 +8,7 @@
     * [1.2 C＃的含义](第1章 C＃简介/1_2_C＃的含义.md)
         * [1.2.1 使用C＃能编写什么样的应用程序](第1章 C＃简介/1_2_1_使用C＃能编写什么样的应用程序.md)
         * [1.2.2 本书中的C＃](第1章 C＃简介/1_2_2_本书总的C＃.md)
-    * [1.3 Visual Studio 2015](第1章 C＃简介/1_3_Visutal Studio 2015.md)
+    * [1.3 Visual Studio 2013](第1章 C＃简介/1_3_Visutal Studio 2015.md)
 * [第2章 编写C\#程序](第2章 编写C＃程序/2_编写C＃程序.md)
     * [2.1 Visual Studio 2015 开发环境](第2章 编写C＃程序/21-visual-studio-2015-开发环境.md)
     * [2.2 控制台应用程序](第2章 编写C＃程序/22-控制台应用程序.md)
