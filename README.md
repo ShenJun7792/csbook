@@ -64,7 +64,7 @@
 <font size=2> 这里是24号字体 </font>
 
 ><small>变小</small>
-<big2>变大</big2>
+<big>变大</big>
 
 
 
