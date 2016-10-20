@@ -1,3 +1,3 @@
 ## 属性 窗口
 
-使用 View | Properties Windows 菜单项
+使用 View | Properties Windows 菜单项就可以打开` 属性 `窗口。这个窗口显示了在其上面窗口中所选的项的其他信息。例如，选择项目中的Program.cs文件，就会显示如图2-9
