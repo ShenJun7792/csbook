@@ -1,7 +1,7 @@
-* #### Visual Studio 2013 开发环境
+#### Visual Studio 2013 开发环境
 
 
-#### 运行VS
+* #### 运行VS
 
 点击 快捷方式 `Visual Studio 2013` _或者_
 命令行运行：` devenv ` 回车
