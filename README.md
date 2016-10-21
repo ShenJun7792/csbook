@@ -346,7 +346,7 @@ cond(no)->op
 
 
 
-### 6. 高效绘制 [甘特图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#9-甘特图)
+### 6. 高效绘制 [甘特图]()
 
 ```gantt
     title 项目开发流程 
