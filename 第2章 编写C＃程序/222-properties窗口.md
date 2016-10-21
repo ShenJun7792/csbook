@@ -7,7 +7,7 @@
 
 ![图2-18](/assets/2-18.png 100x20)
 
-<img src="/assets/2-18.png" width = "100" height = "50" alt="图片名称" align=center />
+<img src="/assets/2-18.png" width = "10" height = "5" alt="图片名称" align=center />
 
 
 >通常在 `属性` 窗口中对项目的改变会直接影响代码，添加代码行，或改变文件中的内容。
