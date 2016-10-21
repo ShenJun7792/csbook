@@ -5,7 +5,7 @@
 `如图 2-18所示`
 
 
-![图2-18](/assets/2-18.png 100x20)
+![图2-18](/assets/2-18.png)
 
 <!--
 <img src="/assets/2-18.png" width = "10" height = "5" alt="图片名称" align=center />
