@@ -13,7 +13,13 @@
 
 &emsp;&emsp;它使用的方式几乎与 `do 循环` 完全相同，例如：
 
-
+```javascript
+        int i = 1;
+        while (i <= 10)
+        {
+            Console.WriteLine("{0}", i++);
+        }
+```
 
 
 
