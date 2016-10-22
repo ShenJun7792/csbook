@@ -65,6 +65,7 @@
                 if (targetBalance < balance)
                     Console.WriteLine("You must enter an amount greater than" + 
                                         "your current balance!\nPlease enter anther value.");
+            }
             while (targetBalance <= balance);
 ```
 
