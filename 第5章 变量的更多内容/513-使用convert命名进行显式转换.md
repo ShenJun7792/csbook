@@ -6,7 +6,10 @@
 
 &emsp;&emsp;按这种方式可以进行许多显式转换，`如表 5-2 所示`。
 
-
+| 命令 | 结果 |
+|-|-|
+| Convert.ToBoolean(val) | `val` 转换为 `bool` |
+| Convert.ToByte(val) | `val` 转换为 `byte` |
 
 
 
