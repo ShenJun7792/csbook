@@ -14,6 +14,13 @@
             case <comparisonVal2>:
              <code to execute if <testVar> == <comparisonVal2> >
             break;
+            ...
+            case <comparisonValN>:
+            <code to execute if <testVar> == <comparisonValN> >
+            break;
+            default:
+            <code to execute if <testVar> != comparisonVals>
+            break;
 
         }
 ```
