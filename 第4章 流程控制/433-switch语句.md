@@ -64,7 +64,7 @@
 
 
 
-
+&emsp;&emsp;每个 `<comparisonValX>` 都必须是一个常数值。一种方法是提供字面值，例如：
 
 
 
