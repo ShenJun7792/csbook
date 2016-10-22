@@ -31,4 +31,28 @@
 > * `goto` 语句中断正常的执行过程，把控制权转到标有 `myLabel:` 的代码行上。
 > * `myInteger` 的值写入控制台。 
 
+
+> 下面突出显示的第 3 行代码从未执行。
+
+```javascript
+        int myInteger = 5;
+        goto myLabel;
+        myInteger += 10;
+    myLabel:
+        Console.WriteLine("myInteger = {0}", myInteger);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 🔚
