@@ -46,7 +46,7 @@
             string stringResult, striingVal = "17";
             bool boolVal = true;
 
-            Console.WriteLine();
+            Console.WriteLine("Variable Conversion Examples\n");
         }
 ```
 
