@@ -35,7 +35,15 @@
 
     把下述代码添加到 `Program.cs` 中：
 
-
+```javascript
+        static void Main(string[] args)
+        {
+            short shortResult, shortVal = 4;
+            int integerVal = 67;
+            long longResult;
+            float floatVal = 10.5f;
+        }
+```
 
 
 
