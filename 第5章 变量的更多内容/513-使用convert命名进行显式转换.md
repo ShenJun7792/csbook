@@ -53,6 +53,7 @@
             shortResult = (short)floatVal;
             Console.WriteLine("Explicit, -> short: {0} -> {1}",
                                 floatVal, shortResult);
+            stringResult = Convert.ToString(boolVal) + Convert.ToString(doubleVal);
 
         }
 ```
