@@ -56,6 +56,10 @@
             stringResult = Convert.ToString(boolVal) + Convert.ToString(doubleVal);
             Convert.WriteLine("Explicit, -> string: \"{0}\" + \"{1}\" -> {2} ",
                                 boolVal, doubleVal, stringResult);
+            longResult = integerVal + Convert.ToInt64(stringVal);
+            Console.WriteLine("Mixed, -> long: {0} + {1} -> {2}",
+                                integerVal, stringVal, longResult);
+            Console.ReadKey();
 
         }
 ```
