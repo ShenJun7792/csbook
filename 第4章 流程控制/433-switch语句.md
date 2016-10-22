@@ -66,6 +66,40 @@
 
 &emsp;&emsp;每个 `<comparisonValX>` 都必须是一个常数值。一种方法是提供字面值，例如：
 
+```javascript
+        switch(myInteger)
+        {
+            case 1:
+                <code to execute if myInteger == 1>
+                break;
+            case -1:
+                <code to execute if myInteger == -1>
+                break;
+            default:
+                <code to execute if myInteger != comparisons>
+                break;
+        }
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
