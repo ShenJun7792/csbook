@@ -20,6 +20,8 @@
 | Convert.ToSingle(val) | `val` 转换为 `float` |
 | Convert.ToString(val) | `val` 转换为 `string` |
 | Convert.ToUInt16(val) | `val` 转换为 `ushort` |
+| Convert.ToUInt32(val) | `val` 转换为 `uint` |
+| Convert.ToUInt64(val) | `val` 转换为 `ulong` |
 
 
 
