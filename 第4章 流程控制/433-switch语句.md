@@ -46,7 +46,20 @@
             ...
 ```
 
+&emsp;&emsp;一个 `case` 语句处理完后，不能自由进入下一个 `case` 语句，但这个规则有一个例外。如果把多个 `case` 语句放在一起（堆叠它们），其后加一个代码块，实际上是一次检查多个条件。如果满足这些条件中的任何一个，就会执行代码，例如：
 
+```javascript
+        switch(<testVar>)
+        {
+            case <comparisonVal1>:
+            case <comparisonVal2>:
+                <code to execute if <testVar> == <comparisonVal1> or
+                                    <testVar> == <comparisonVal2> >
+                break;
+            ...
+
+            
+```
 
 
 
