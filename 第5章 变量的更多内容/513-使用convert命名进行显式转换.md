@@ -77,11 +77,13 @@
 
 >&emsp;&emsp;也可以覆盖这种行为，如下所示：
 
-```javascript
+>```javascript
         shortVal * (short)floatVal
 ```
 
+<br>
 
+>&emsp;&emsp;有趣的是，两个 `short` 相乘的结果并不会返回一个 `short` 值。因为这个操作的结果很可能大于 32767 （这是 `short` 可以包含的最大值），所以这个操作的结果实际上是 `int`。
 
 
 
