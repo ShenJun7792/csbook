@@ -95,7 +95,7 @@
         doubleResult = floatVal + (shortVal * floatVal);
 ```
 
-
+>&emsp;&emsp;要处理的第一个运算符是 `*`，如上所述，它将把 `shortVal` 转换为 `float`。接着处理 `+` 运算符，它不需要进行任何转换，因为这是把两个 `float` 值相加（ `floatVal` 和 `shortVal * floatVal` 的 `float` 结果）。在最后处理 `=` 运算符时，这个计算的 `float` 结果转换为 `double`。
 
 
 
