@@ -44,6 +44,9 @@
             float floatVal = 10.5f;
             double doubleResult, doubleVal = 99.999;
             string stringResult, striingVal = "17";
+            bool boolVal = true;
+
+            Console.WriteLine();
         }
 ```
 
