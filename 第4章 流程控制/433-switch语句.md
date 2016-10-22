@@ -93,7 +93,7 @@
 
 ```javascript
         const int intTwo;
-        intTwo = 2;
+        intTwo = 2; ❌
 ```
 
 
