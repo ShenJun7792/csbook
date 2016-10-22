@@ -55,7 +55,14 @@
 
 >&emsp;&emsp;这段代码只是把 `do 循环` 改为 `while 循环`,就解决了上一个示例中的问题。把布尔测试移到开头处，就考虑了不需要执行循环的情况，可以直接跳转到输出结果上。
 
->&emsp;&emsp;当然，这种情况还有一个解决方案。例如，可以检查用户输入，确保目标余额大于起始余额。此时，可以把用户输入部分放到循环中，如夏所示：
+>&emsp;&emsp;当然，这种情况还有一个解决方案。例如，可以检查用户输入，确保目标余额大于起始余额。此时，可以把用户输入部分放到循环中，如下所示：
+
+>```javascript
+            Console.WriteLine("What balance would you like to have?");
+            do
+            {
+                targetBalance = Convert.ToDouble(Console.ReadLine());
+```
 
 
 
