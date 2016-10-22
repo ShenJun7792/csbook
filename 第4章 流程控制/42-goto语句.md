@@ -45,7 +45,21 @@
 >&emsp;&emsp;实际上，如果在应用程序中加入这段代码，会发现编译代码时，`Error List` 窗口会显示一个警告 ⚠️，即 `Unreachable code detected` 和一个行号。在无法执行的代码行中，`myInteger`下面还有绿色的波浪线。
 
 
+&emsp;&emsp;`goto` 语句有它们的作用，但也可能使代码陷入混乱。尽量不要使用它（使用本章后面介绍的技巧，就可以避免使用它）。
 
+    例如，因使用 `goto` 语句而非常难懂的代码，如下所示：
+
+```javascript
+    start:
+        int myInteger = 5;
+        goto addVal;
+    writeResult:
+        Console.WriteLine("myInteger = {0}", myInteger);
+        goto start;
+    addVal:
+        myInteger += 10;
+        goto writeResult;
+```
 
 
 
