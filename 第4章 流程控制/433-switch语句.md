@@ -123,6 +123,8 @@
                     Console.WriteLine("That's a very silly name");
                     break;
             }
+            Console.WriteLine("Hello {0}!", name);
+            Console.ReadKey();
         }
 ```
 
