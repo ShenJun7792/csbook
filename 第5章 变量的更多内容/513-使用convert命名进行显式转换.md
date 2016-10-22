@@ -54,6 +54,8 @@
             Console.WriteLine("Explicit, -> short: {0} -> {1}",
                                 floatVal, shortResult);
             stringResult = Convert.ToString(boolVal) + Convert.ToString(doubleVal);
+            Convert.WriteLine("Explicit, -> string: \"{0}\" + \"{1}\" -> {2} ",
+                                boolVal, doubleVal, stringResult);
 
         }
 ```
