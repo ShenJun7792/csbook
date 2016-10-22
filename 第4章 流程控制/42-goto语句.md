@@ -34,7 +34,7 @@
 
 > 下面突出显示的第 3 行代码从未执行。
 
-```javascript
+>```javascript
         int myInteger = 5;
         goto myLabel;
         myInteger += 10;
@@ -42,7 +42,7 @@
         Console.WriteLine("myInteger = {0}", myInteger);
 ```
 
-
+>&emsp;&emsp;实际上，如果在应用程序中加入这段代码，会发现编译代码时，`Error List` 窗口会显示一个警告 ⚠️，即 `Unreachable code detected` 和一个行号。在无法执行的代码行中，`myInteger`下面还有绿色的波浪线。
 
 
 
