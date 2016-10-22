@@ -91,7 +91,7 @@
 
 >&emsp;&emsp;如果语句涉及混合类型，就根据运算符的优先级，在处理每个运算符时执行转换。这意味着可能出现 “中间” 转换，例如：
 
-```javascript
+>```javascript
         doubleResult = floatVal + (shortVal * floatVal);
 ```
 
