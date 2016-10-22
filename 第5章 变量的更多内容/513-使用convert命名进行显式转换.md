@@ -6,6 +6,8 @@
 
 &emsp;&emsp;按这种方式可以进行许多显式转换，`如表 5-2 所示`。
 
+**`表5-2 转换命令`**
+
 | 命令 | 结果 |
 |-|-|
 | Convert.ToBoolean(val) | `val` 转换为 `bool` |
@@ -22,6 +24,8 @@
 | Convert.ToUInt16(val) | `val` 转换为 `ushort` |
 | Convert.ToUInt32(val) | `val` 转换为 `uint` |
 | Convert.ToUInt64(val) | `val` 转换为 `ulong` |
+
+&emsp;&emsp;其中 `val` 可以是大多数变量类型（如果这些命令不能处理该类型的变量，编译器就会告诉用户）。
 
 
 
