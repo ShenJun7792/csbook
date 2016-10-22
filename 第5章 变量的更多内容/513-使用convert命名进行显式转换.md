@@ -47,6 +47,10 @@
             bool boolVal = true;
 
             Console.WriteLine("Variable Conversion Examples\n");
+            doubleResult = floatVal * shortVal;
+            Console.WriteLine("Implicit, -> double: {0} * {1} -> {2}",
+                                floatVal, shortVal, doubleResult);
+
         }
 ```
 
