@@ -75,6 +75,12 @@
 ```
 >&emsp;&emsp;其中把一个 `short` 值与一个 `float` 值相乘。在这样的指令中，没有指定显式转换，所以如有可能，就会进行隐式转换。在这个示例中，唯一有意义的隐式转换是把 `short` 值转换为 `float`（因为把 `float` 值转换为 `short` 需要进行显式转换），所以这里将使用隐式转换。
 
+>&emsp;&emsp;也可以覆盖这种行为，如下所示：
+
+```javascript
+        shortVal * (short)floatVal
+```
+
 
 
 
