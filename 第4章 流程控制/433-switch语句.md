@@ -102,7 +102,15 @@
     在下面的示例中，将使用 `switch` 语句，根据用户为测试字符串输入的值，将不同字符串写到控制台上。
     把以下代码添加到 `Program.cs` 中：
     
-
+```javascript
+        static void Main(string[] args)
+        {
+            const string myName = ""karli;
+            const string sexyName = "angelina";
+            const string sillyName = "ploppy";
+            string name;
+        }
+```
 
 
 
