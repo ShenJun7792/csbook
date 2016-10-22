@@ -15,6 +15,11 @@
 | Convert.ToDouble(val) | `val` 转换为 `double` |
 | Convert.ToInt16(val) | `val` 转换为 `short` |
 | Convert.ToInt32(val) | `val` 转换为 `int` |
+| Convert.ToInt64(val) | `val` 转换为 `long` |
+| Convert.ToSByte(val) | `val` 转换为 `sbyte` |
+| Convert.ToSingle(val) | `val` 转换为 `float` |
+| Convert.ToString(val) | `val` 转换为 `string` |
+| Convert.ToUInt16(val) | `val` 转换为 `ushort` |
 
 
 
