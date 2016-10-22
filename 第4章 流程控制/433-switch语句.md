@@ -21,7 +21,6 @@
             default:
             <code to execute if <testVar> != comparisonVals>
             break;
-
         }
 ```
 
