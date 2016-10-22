@@ -89,6 +89,13 @@
         const int intTwo = 2;
 ```
 
+&emsp;&emsp;这行代码是有效的，但如果编写如下代码：
+
+```javascript
+        const int intTwo;
+        intTwo = 2;
+```
+
 
 
 
