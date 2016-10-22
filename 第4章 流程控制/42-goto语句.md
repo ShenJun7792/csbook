@@ -8,9 +8,21 @@
         goto <labelName>;
 ```
 
+&emsp;&emsp;标签用下述方式定义：
 
+```javascript
+        <labelName>:
+```
 
+    例如，下面的代码：
 
+```javascript
+        int myInteger = 5;
+        goto myLabel;
+        myInteger += 10;
+    myLabel:
+        Console.WriteLine("myInteger = {0}", myInteger);
+```
 
 
 
