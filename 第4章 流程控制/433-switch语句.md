@@ -24,7 +24,10 @@
         }
 ```
 
-&emsp;&emsp;`<testVar>` 中的值与每个 `<comparisonValX>` 值
+&emsp;&emsp;`<testVar>` 中的值与每个 `<comparisonValX>` 值（在 `case` 语句中指定）进行比较，如果有一个匹配，就执行为该匹配提供的语句。如果没有匹配，但有 `default` 语句，就执行 `default` 部分中的代码。
+
+&emsp;&emsp;执行完每个部分中的代码后，还需有另一个语句 `break`。在执行完一个 `case` 块后，再执行第二个 `case` 语句是非法的。
+
 
 
 
