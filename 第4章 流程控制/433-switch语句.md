@@ -56,9 +56,7 @@
                 <code to execute if <testVar> == <comparisonVal1> or
                                     <testVar> == <comparisonVal2> >
                 break;
-            ...
-
-            
+            ...      
 ```
 
 
