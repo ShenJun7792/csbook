@@ -50,6 +50,9 @@
             doubleResult = floatVal * shortVal;
             Console.WriteLine("Implicit, -> double: {0} * {1} -> {2}",
                                 floatVal, shortVal, doubleResult);
+            shortResult = (short)floatVal;
+            Console.WriteLine("Explicit, -> short: {0} -> {1}",
+                                floatVal, shortResult);
 
         }
 ```
