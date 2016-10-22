@@ -10,6 +10,11 @@
 |-|-|
 | Convert.ToBoolean(val) | `val` 转换为 `bool` |
 | Convert.ToByte(val) | `val` 转换为 `byte` |
+| Convert.ToChar(val) | `val` 转换为 `char` |
+| Convert.ToDecimal(val) | `val` 转换为 `decimal` |
+| Convert.ToDouble(val) | `val` 转换为 `double` |
+| Convert.ToInt16(val) | `val` 转换为 `short` |
+| Convert.ToInt32(val) | `val` 转换为 `int` |
 
 
 
