@@ -14,16 +14,21 @@
         <labelName>:
 ```
 
-    例如，下面的代码：
+>    例如，下面的代码：
 
-```javascript
+>```javascript
         int myInteger = 5;
         goto myLabel;
         myInteger += 10;
-    myLabel:
+
+>    myLabel:
         Console.WriteLine("myInteger = {0}", myInteger);
 ```
 
+>    其执行过程如下：
 
+> * `myInteger` 声明为 `int` 类型，并赋予值 5。
+> * `goto` 语句中断正常的执行过程，把控制权转到标有 `myLabel:` 的代码行上。
+> * `myInteger` 的值写入控制台。 
 
 🔚
