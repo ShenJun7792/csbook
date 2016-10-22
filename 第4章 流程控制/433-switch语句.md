@@ -32,6 +32,19 @@
 
 &emsp;&emsp;在这里的 `break` 语句将中断 `switch` 语句的执行，而执行该结构后面的语句。
 
+&emsp;&emsp;在C#代码中，还有其他方法可以防止程序流程从一个 `case` 语句转到下一个 `case` 语句。可以使用 `return` 语句，中断当前函数的运行，而不是仅中断 `switch` 结构的执行（详见第6章）。也可以使用 `goto` 语句（如前所述），因为 `case` 语句实际上是在C#代码中定义的标签。例如：
+
+```javascript
+        switch(<testVar>)
+        {
+            case <comparisonVal1>:
+            <code to execute if <testVar> == <comparisonVal1> >
+            goto case<comparisonVal2>;
+            case <comparisonVal2>:
+            <code to execute if <testVar> == <comparisonVal2> >
+            break;
+            ...
+```
 
 
 
