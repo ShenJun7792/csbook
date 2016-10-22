@@ -109,6 +109,8 @@
             const string sexyName = "angelina";
             const string sillyName = "ploppy";
             string name;
+            Console.WriteLine("What is your name?");
+            name = Console.ReadLine();
         }
 ```
 
