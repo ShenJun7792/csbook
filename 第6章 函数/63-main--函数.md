@@ -20,9 +20,23 @@
 
 &emsp;&emsp;前面已经遇到了命令行参数，在命令行上执行应用程序时，通常可以直接指定信息，如在执行应用程序时加载一个文件。例如，考虑 `Windows` 中的记事本应用程序。在命令提示窗口中键入 `notepad`，或在 `Windows` 的 `Start` 菜单中选择 `Run` 选项，再在打开的窗口中键入 `notepad`，就可以运行该应用程序。也可以键入 `notepad "myfile.txt"`，结果是 `Notepad` 在运行时将加载文件 `myfile.txt`，结果是 `Notepad` 在运行时将加载文件 `myfile.txt`，如果该文件不存在，`Notepad` 也会创建该文件。这里 `myfile.txt` 是一个命令行参数。利用 `args` 参数，可以编写以类似方式工作的控制台应用程序。
 
-&emsp;&emsp;在执行控制台应用程序时，指定的任何命令行参数都放在这个 `args` 数组中，接着可以根据需要在应用程序中使用这些参数。下面用一个示例来说明。这个示例可以指定任意数量的命令行参数，每个参数都输出到控制台上。
+>&emsp;&emsp;在执行控制台应用程序时，指定的任何命令行参数都放在这个 `args` 数组中，接着可以根据需要在应用程序中使用这些参数。下面用一个示例来说明。这个示例可以指定任意数量的命令行参数，每个参数都输出到控制台上。
 
+>把下列代码添加到 `Program.cs` 中：
 
+>```javascript
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                Console.WriteLine("{0} command line arguments were specified:", args.Length);
+                foreach (string arg in args)
+                {
+                    Console.WriteLine(arg);
+                }
+            }
+        }
+```
 
 
 
