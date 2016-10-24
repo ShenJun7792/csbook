@@ -58,7 +58,7 @@
 >```javascript
         HelloWorld 256 myFile.txt "a longer argument"
 ```
-
+>&emsp;&emsp;每个参数都用空格分开。如果参数包含空格，就可以用双引号把参数括起来，这样才不会把这个参数解释为多个参数。
 
 
 
