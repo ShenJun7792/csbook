@@ -38,6 +38,7 @@
         }
 ```
 
+>&emsp;&emsp;打开项目的属性页面，选择 `Debug` 页面，在 `Command Line Arguments` 设置中添加所希望的命令行参数，如图 6-7 所示。
 
 
 
