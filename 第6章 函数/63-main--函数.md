@@ -44,7 +44,13 @@
 
 **`图 6-7`**
 
+>&emsp;&emsp;**示例的说明**
 
+>&emsp;&emsp;这里使用的代码非常简单：
+
+>```javascript
+        Console.WriteLine("{0} command line arguments were specified:", args.Length);
+```
 
 
 
