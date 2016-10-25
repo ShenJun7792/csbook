@@ -31,6 +31,12 @@
 
 &emsp;&emsp;● 如果有 `catch` 块，就检查该块是否匹配已抛出的异常类型。如果没有 `catch` 块，就执行 `finally` 块（如果没有 `catch` 块，就一定要有 `finally` 块）。
 
+&emsp;&emsp;● 如果有 `catch` 块，但它与已发生的异常类型不匹配，就检查是否有其他 `catch` 块。
+
+&emsp;&emsp;● 如果有 `catch` 块匹配已发生的异常类型，就执行它包含的代码，再执行 `finally` 块（如果有）。
+
+&emsp;&emsp;● 如果 `catch` 块都不匹配已发生的异常类型，就执行 `finally` 块（如果有）。
+
 
 
 
