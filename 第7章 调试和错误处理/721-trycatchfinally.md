@@ -84,13 +84,13 @@
                 {
                     case "none":
                         Console.WriteLine("Not throwing an exception.");
-                        break;                                                 // Line 50
+                        break;                                              // Line 50
                     case "simple":
                         Console.WriteLine("Throwing System.Exception.");
-                        throw new System.Exception();                          // Line 53
+                        throw new System.Exception();                       // Line 53
                     case "index":
                         Console.WriteLine("Throwing System.IndexOutOfRangeException.");
-                        eTypes[4] = "error";                                   // Line 56
+                        eTypes[4] = "error";                                // Line 56
                         break;
                     case "nested index":
                         try                                                    // Line 59
