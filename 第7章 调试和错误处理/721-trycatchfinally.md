@@ -110,6 +110,7 @@
                             Console.WriteLine("ThrowException(\"nested index\") finally"
                                               + "block reached." );
                         }
+                        break;
                 }
             }
         }
