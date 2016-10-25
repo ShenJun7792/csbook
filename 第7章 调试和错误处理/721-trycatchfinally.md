@@ -93,14 +93,14 @@
                         eTypes[4] = "error";                                // Line 56
                         break;
                     case "nested index":
-                        try                                                    // Line 59
+                        try                                                 // Line 59
                         {
                             Console.WriteLine("ThrowException(\"nested index\")" + 
                                                 "try block reached.");
                             Console.WriteLine("ThrowException(\"index\") called.");
-                            ThrowException("index");                           // Line 64
+                            ThrowException("index");                        // Line 64
                         }
-                        catch                                                  // Line 66
+                        catch                                               // Line 66
                         {
                             Console.WriteLine("ThrowException(\"nested index\") general"
                                               + "catch block reached.");
