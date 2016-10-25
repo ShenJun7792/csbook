@@ -54,8 +54,26 @@
                     {
                         Console.WriteLine("Main() try block reached.");        // Line 19
                         Console.WriteLine("ThrowException(\"{0}\") called.", eType);
+                        ThrowException(eType);
+                        Console.WriteLine("Main() try block continues.");      // Line 22
                     }
+                    catch (System.IndexOutOfRangeException e)                  // Line 24
+                    {
+                        Console.WriteLine("Main() System.IndexOutOfRangeException catch"
+                                           + "block reached. Message:\n\"{0}\"", 
+                                           e.Message);
+                    }
+                    catch                                                      // Line 30
+                    {
+                        Console.WriteLine("Main() general catch block reached.");
+                    }
+                    finally
+                    {
+                        Console.WriteLine("Main() finally block reached.");
+                    }
+                    Console.WriteLine();
                 }
+                Console.ReadKey();
             }
         }
 ```
