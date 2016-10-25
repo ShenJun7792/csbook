@@ -39,7 +39,26 @@
 
 >&emsp;&emsp;下面用一个示例来说明异常的处理。这个示例以几种方式抛出和处理异常，以便读者了解其机制。
 
+>&emsp;&emsp;修改代码，如下所示（这里显示的行号注释有助于将代码与后面讨论的内容联系起来，在本章的可下载代码中也包含这些行号，以方便参考）：
 
+```javascript
+        class Program
+        {
+            static string[] eTypes = { "none", "simple", "index", "nested index" };
+
+            static void Main(string[] args)
+            {
+                foreach (string eType in eTypes)
+                {
+                    try
+                    {
+                        Console.WriteLine("Main() try block reached.");        // Line 19
+                        Console.WriteLine("ThrowException(\"{0}\") called.", eType);
+                    }
+                }
+            }
+        }
+```
 
 
 
