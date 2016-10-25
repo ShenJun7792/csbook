@@ -87,23 +87,28 @@
                         break;                                                 // Line 50
                     case "simple":
                         Console.WriteLine("Throwing System.Exception.");
-                        throw new System.Exception();
+                        throw new System.Exception();                          // Line 53
                     case "index":
                         Console.WriteLine("Throwing System.IndexOutOfRangeException.");
-                        eTypes[4] = "error";
+                        eTypes[4] = "error";                                   // Line 56
                         break;
                     case "nested index":
-                        try
+                        try                                                    // Line 59
                         {
                             Console.WriteLine("ThrowException(\"nested index\")" + 
                                                 "try block reached.");
                             Console.WriteLine("ThrowException(\"index\") called.");
-                            ThrowException("index");                          // Line 64
+                            ThrowException("index");                           // Line 64
                         }
-                        catch
+                        catch                                                  // Line 66
                         {
                             Console.WriteLine("ThrowException(\"nested index\") general"
                                               + "catch block reached.");
+                        }
+                        finally
+                        {
+                            Console.WriteLine("ThrowException(\"nested index\") finally"
+                                              + "block reached." );
                         }
                 }
             }
