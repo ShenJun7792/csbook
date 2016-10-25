@@ -75,6 +75,38 @@
                 }
                 Console.ReadKey();
             }
+
+            static void ThrowException(string exceptionType)
+            {
+                Console.WriteLine("ThrowException(\"{0}\") reached.", exceptiontype);
+
+                switch (exceptionType)
+                {
+                    case "none":
+                        Console.WriteLine("Not throwing an exception.");
+                        break;                                                 // Line 50
+                    case "simple":
+                        Console.WriteLine("Throwing System.Exception.");
+                        throw new System.Exception();
+                    case "index":
+                        Console.WriteLine("Throwing System.IndexOutOfRangeException.");
+                        eTypes[4] = "error";
+                        break;
+                    case "nested index":
+                        try
+                        {
+                            Console.WriteLine("ThrowException(\"nested index\")" + 
+                                                "try block reached.");
+                            Console.WriteLine("ThrowException(\"index\") called.");
+                            ThrowException("index");                          // Line 64
+                        }
+                        catch
+                        {
+                            Console.WriteLine("ThrowException(\"nested index\") general"
+                                              + "catch block reached.");
+                        }
+                }
+            }
         }
 ```
 
