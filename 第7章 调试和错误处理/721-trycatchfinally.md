@@ -27,7 +27,9 @@
 
 &emsp;&emsp;在 `try` 块的代码中出现异常后，发生的事件依次是：
 
-&emsp;&emsp;● 
+&emsp;&emsp;● try 块在发生异常的地方中断程序的执行。
+
+&emsp;&emsp;● 如果有 `catch` 块，就检查该块是否匹配已抛出的异常类型。如果没有 `catch` 块，就执行 `finally` 块（如果没有 `catch` 块，就一定要有 `finally` 块）。
 
 
 
