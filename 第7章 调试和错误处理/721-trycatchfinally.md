@@ -59,8 +59,8 @@
                     }
                     catch (System.IndexOutOfRangeException e)               // Line 24
                     {
-                        Console.WriteLine("Main() System.IndexOutOfRangeException catch"
-                                           + "block reached. Message:\n\"{0}\"", 
+                        Console.WriteLine("Main() System.IndexOutOfRangeException 
+                                           catch" + "block reached. Message:\n\"{0}\"", 
                                            e.Message);
                     }
                     catch                                                   // Line 30
