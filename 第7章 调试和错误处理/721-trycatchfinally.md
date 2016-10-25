@@ -1,6 +1,6 @@
 ##try...catch...finally
 
-&emsp;&emsp;C#语言包含结构化异常处理（Structured Exception Handling, SEH）的语法。用 3 个关键字可以标记出能处理异常的代码和指令，如果发生异常，就使用这些指令处理异常。用于这个目的的 3 个关键字是 `try`、`catch`和 `finally`。它们都有一个关联的代码块，必须在连续的代码行中使用。其基本结构如下：
+&emsp;&emsp;C#语言包含**结构化异常处理**（Structured Exception Handling, SEH）的语法。用 3 个关键字可以标记出能处理异常的代码和指令，如果发生异常，就使用这些指令处理异常。用于这个目的的 3 个关键字是 `try`、`catch`和 `finally`。它们都有一个关联的代码块，必须在连续的代码行中使用。其基本结构如下：
 
 ```javascript
         try
@@ -23,7 +23,7 @@
 
 &emsp;&emsp;● catch -- 包含抛出异常时要执行的代码。`catch` 块可以使用 `<exceptionType>`，设置为只响应特定的异常类型（如System.IndexOutOfRangeException），以便提供多个 `catch` 块。还可以完全省略这个参数，让一般的 `catch` 块响应所有异常。
 
-&emsp;&emsp;● finally -- 包含始终会执行的代码，如果没有产生异常，则在 `try` 块之后执行，如果处理了异常，就在 `catch` 块后执行，或者在未处理的异常上移到调用堆栈之前执行。
+&emsp;&emsp;● finally -- 包含始终会执行的代码，如果没有产生异常，则在 `try` 块之后执行，如果处理了异常，就在 `catch` 块后执行，或者在未处理的异常上移到调用堆栈之前执行。“上移到调用堆栈”表示，SEH允许嵌套 `try...catch...finally` 块，可以直接嵌套，也可以在
 
 
 
