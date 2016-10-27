@@ -78,7 +78,7 @@
 
             static void ThrowException(string exceptionType)
             {
-                Console.WriteLine("ThrowException(\"{0}\") reached.", exceptiontype);
+                Console.WriteLine("ThrowException(\"{0}\") reached.", exceptionType);
 
                 switch (exceptionType)
                 {
