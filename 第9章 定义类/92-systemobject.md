@@ -21,7 +21,12 @@
 
 &emsp;&emsp;在利用多态性时，`GetType()` 是一个有用的方法，允许根据对象的类型来执行不同的操作，而不是像通常那样，对所有对象都执行相同的操作。例如，如果函数接受一个 `object` 类型的参数（表示可以给该函数传递任何信息），就可以在遇到某些对象时执行额外的任务。结合使用 `GetType()` 和 `typeof` （这是一个 C#运算符，可以把类名转换为 System.Type 对象），就可以进行比较，如下所示：
 
-
+```javascript
+        if (myObj.GetType() == typeof(MyComplexClass))
+        {
+            // myObj is an instance of the class MyComplexClass.
+        }
+```
 
 
 
